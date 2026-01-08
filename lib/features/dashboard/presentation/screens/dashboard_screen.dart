@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_spacing.dart';
 import '../../../auth/presentation/providers/auth_provider.dart';
-import '../../../practice/presentation/screens/practice_screen.dart';
+import '../../../practice/presentation/screens/practice_setup_screen.dart';
 import '../../../daily_evaluation/presentation/screens/daily_evaluation_screen.dart';
 import '../../../mock_exam/presentation/screens/mock_exam_screen.dart';
 import '../../../ranking/presentation/screens/ranking_screen.dart';
@@ -126,7 +126,7 @@ class DashboardScreen extends StatelessWidget {
                             onTap: () {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
-                                  builder: (_) => const PracticeScreen(),
+                                  builder: (_) => const PracticeSetupScreen(),
                                 ),
                               );
                             },
