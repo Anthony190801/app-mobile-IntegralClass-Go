@@ -1,6 +1,6 @@
-# Documentación del Proyecto INTEGRALCLASS GO
+# Documentación del Proyecto IntegralClass Go
 
-Bienvenido a la documentación oficial del aplicativo móvil **INTEGRALCLASS GO**, desarrollado como parte de una tesis universitaria en Ingeniería Informática.
+Bienvenido a la documentación oficial del aplicativo móvil **IntegralClass Go**, desarrollado como parte de una tesis universitaria en Ingeniería Informática.
 
 ## 📋 Índice de Documentación
 
@@ -60,7 +60,7 @@ Esta documentación debe mantenerse actualizada conforme el proyecto evoluciona.
 
 ## 📧 Información del Proyecto
 
-**Nombre del Proyecto**: INTEGRALCLASS GO  
+**Nombre del Proyecto**: IntegralClass Go  
 **Universidad**: (Especificar)  
 **Facultad**: Ingeniería Informática  
 **Tesis**: Aplicativo móvil con gamificación para incrementar la probabilidad de ingreso a las universidades de los estudiantes preuniversitarios en la ciudad de Trujillo  

@@ -1,6 +1,6 @@
-# Sistema de Diseño - INTEGRALCLASS GO
+# Sistema de Diseño - IntegralClass Go
 
-Este documento define el sistema de diseño visual de la aplicación INTEGRALCLASS GO, estableciendo estándares de colores, tipografía, espaciado, componentes y principios de diseño.
+Este documento define el sistema de diseño visual de la aplicación IntegralClass Go, estableciendo estándares de colores, tipografía, espaciado, componentes y principios de diseño.
 
 ---
 
@@ -515,5 +515,5 @@ Base: **8px** (unidad fundamental)
 
 **Versión**: 1.0.0  
 **Última actualización**: 2024  
-**Autor**: Equipo de Diseño INTEGRALCLASS GO
+**Autor**: Equipo de Diseño IntegralClass Go
 

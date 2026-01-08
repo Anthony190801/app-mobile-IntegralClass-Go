@@ -1,6 +1,6 @@
-# Arquitectura del Software - INTEGRALCLASS GO
+# Arquitectura del Software - IntegralClass Go
 
-Este documento describe la arquitectura del software de la aplicación móvil INTEGRALCLASS GO, basada en Clean Architecture y el patrón MVVM.
+Este documento describe la arquitectura del software de la aplicación móvil IntegralClass Go, basada en Clean Architecture y el patrón MVVM.
 
 ---
 
@@ -764,5 +764,5 @@ Screen → Provider → UseCase → Repository Interface
 
 **Versión**: 1.0.0  
 **Última actualización**: 2024  
-**Autor**: Equipo de Desarrollo INTEGRALCLASS GO
+**Autor**: Equipo de Desarrollo IntegralClass Go
 

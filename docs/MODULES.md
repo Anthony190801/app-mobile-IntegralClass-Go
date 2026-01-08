@@ -1,6 +1,6 @@
-# Módulos Funcionales - INTEGRALCLASS GO
+# Módulos Funcionales - IntegralClass Go
 
-Este documento describe en detalle los 11 módulos funcionales que componen la aplicación móvil INTEGRALCLASS GO.
+Este documento describe en detalle los 11 módulos funcionales que componen la aplicación móvil IntegralClass Go.
 
 ---
 
@@ -691,5 +691,5 @@ Módulo de configuración que permite al usuario personalizar su experiencia y g
 
 **Versión**: 1.0.0  
 **Última actualización**: 2024  
-**Autor**: Equipo de Desarrollo INTEGRALCLASS GO
+**Autor**: Equipo de Desarrollo IntegralClass Go
 

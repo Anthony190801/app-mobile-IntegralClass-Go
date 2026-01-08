@@ -1,10 +1,10 @@
-# Visión General del Proyecto INTEGRALCLASS GO
+# Visión General del Proyecto IntegralClass Go
 
 ## 1. Información General
 
 ### 1.1 Datos del Proyecto
 
-- **Nombre del Aplicativo**: INTEGRALCLASS GO
+- **Nombre del Aplicativo**: IntegralClass Go
 - **Tipo de Proyecto**: Aplicación móvil multiplataforma
 - **Plataformas Objetivo**: Android e iOS
 - **Tecnología Principal**: Flutter (Dart)
@@ -82,7 +82,7 @@ El sistema completo se compone de tres componentes principales:
 
 ### 4.2 Alcance de la Aplicación Móvil
 
-La aplicación móvil INTEGRALCLASS GO incluye los siguientes módulos:
+La aplicación móvil IntegralClass Go incluye los siguientes módulos:
 
 1. Autenticación y Perfil
 2. Dashboard Principal
@@ -273,11 +273,11 @@ La aplicación móvil INTEGRALCLASS GO incluye los siguientes módulos:
 
 ## 11. Conclusión
 
-INTEGRALCLASS GO representa una solución tecnológica integral para mejorar la preparación académica de estudiantes preuniversitarios mediante la combinación de tecnología móvil, gamificación y contenido educativo de calidad. El proyecto busca generar un impacto positivo tanto académico como social en la comunidad de Trujillo.
+IntegralClass Go representa una solución tecnológica integral para mejorar la preparación académica de estudiantes preuniversitarios mediante la combinación de tecnología móvil, gamificación y contenido educativo de calidad. El proyecto busca generar un impacto positivo tanto académico como social en la comunidad de Trujillo.
 
 ---
 
 **Versión**: 1.0.0  
 **Última actualización**: 2024  
-**Autor**: Equipo de Desarrollo INTEGRALCLASS GO
+**Autor**: Equipo de Desarrollo IntegralClass Go
 

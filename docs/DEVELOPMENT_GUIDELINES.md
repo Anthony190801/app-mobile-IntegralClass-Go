@@ -1,6 +1,6 @@
-# Guías de Desarrollo - INTEGRALCLASS GO
+# Guías de Desarrollo - IntegralClass Go
 
-Este documento establece las convenciones, estándares y mejores prácticas para el desarrollo del proyecto INTEGRALCLASS GO.
+Este documento establece las convenciones, estándares y mejores prácticas para el desarrollo del proyecto IntegralClass Go.
 
 ---
 
@@ -729,5 +729,5 @@ Antes de hacer commit, verificar:
 
 **Versión**: 1.0.0  
 **Última actualización**: 2024  
-**Autor**: Equipo de Desarrollo INTEGRALCLASS GO
+**Autor**: Equipo de Desarrollo IntegralClass Go
 
