@@ -3,12 +3,10 @@
 /// Configura el tema de la aplicación y define la estructura base
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 import 'core/theme/app_theme.dart';
+import 'core/providers/app_providers.dart';
 import 'features/auth/presentation/screens/login_screen.dart';
-import 'features/auth/auth_dependencies.dart';
-import 'features/auth/presentation/providers/auth_provider.dart';
 
 void main() {
   runApp(const MainApp());
@@ -19,9 +17,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<AuthProvider>(
-      create: (_) => createAuthProvider(),
-      child: MaterialApp(
+    return withAppProviders(
+      MaterialApp(
         title: 'IntegralClass Go',
         theme: AppTheme.lightTheme,
         debugShowCheckedModeBanner: false,

@@ -9,6 +9,7 @@ import '../../../../core/theme/app_spacing.dart';
 import '../../../../core/widgets/app_button.dart';
 import '../../../../core/widgets/app_card.dart';
 import '../../../dashboard/presentation/screens/dashboard_screen.dart';
+import '../../../gamification/presentation/providers/gamification_provider.dart';
 import '../providers/practice_provider.dart';
 
 class PracticeResultScreen extends StatelessWidget {
@@ -20,13 +21,21 @@ class PracticeResultScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Resultados'),
       ),
-      body: Consumer<PracticeProvider>(
-        builder: (context, provider, _) {
-          final result = provider.result;
+      body: Consumer2<PracticeProvider, GamificationProvider?>(
+        builder: (context, practiceProvider, gamificationProvider, _) {
+          final result = practiceProvider.result;
           
           if (result == null) {
             return const Center(child: CircularProgressIndicator());
           }
+          
+          // Sumar XP al finalizar práctica (solo una vez cuando se carga el resultado)
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            if (gamificationProvider != null) {
+              // +10 XP por completar práctica
+              gamificationProvider.addXp(10);
+            }
+          });
           
           return SingleChildScrollView(
             padding: const EdgeInsets.all(AppSpacing.lg),
@@ -152,7 +161,7 @@ class PracticeResultScreen extends StatelessWidget {
                   text: 'Volver al Dashboard',
                   onPressed: () {
                     // Limpiar provider y volver al dashboard
-                    provider.reset();
+                    practiceProvider.reset();
                     Navigator.of(context).pushAndRemoveUntil(
                       MaterialPageRoute(
                         builder: (_) => const DashboardScreen(),
@@ -171,7 +180,7 @@ class PracticeResultScreen extends StatelessWidget {
                 AppButton(
                   text: 'Practicar de Nuevo',
                   onPressed: () {
-                    provider.reset();
+                    practiceProvider.reset();
                     Navigator.of(context).pop();
                   },
                   type: AppButtonType.secondary,
